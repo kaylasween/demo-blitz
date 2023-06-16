@@ -10,7 +10,7 @@ export default function Page404() {
     <>
       <Head>
         <title>
-          {statusCode}: {title}
+          {statusCode}: {title} ERROR!
         </title>
       </Head>
       <ErrorComponent statusCode={statusCode} title={title} />
