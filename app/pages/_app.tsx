@@ -29,7 +29,7 @@ function RootErrorFallback({ error, resetErrorBoundary }: ErrorFallbackProps) {
     return (
       <ErrorComponent
         statusCode={error.statusCode}
-        title="Sorry, you are not authorized to access this"
+        title="Sorry, you are not authorized to access this!"
       />
     )
   } else {
