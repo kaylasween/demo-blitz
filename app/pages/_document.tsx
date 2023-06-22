@@ -14,7 +14,7 @@ class MyDocument extends Document {
         <body>
           <Main />
           <BlitzScript />
-          <p>Is this doing anything?</p>
+          <p>Is this doing anything??</p>
         </body>
       </Html>
     )
